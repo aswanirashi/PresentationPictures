@@ -1,50 +1,34 @@
-% How to use Pandoc for creating awesome slides for GUADEC 2015
-% Lasse Schuirmann (`lasse.schuirmann@gmail.com`)
-% August 7, 2015
-
-# Title Slide
-
-Any text under a header 1 won't be shown. This is a title slide without
-content!
+% Automated tests for Gnome-logs
+% Rashi Aswani
 
 ---
 
-![Evaluation of a Code Clone Detection](graph.png)
+![](klotski1.png)\
 
 ---
 
 <!-- Leave the alternative text empty and add a backslash *plus a trailing space
 or an extra newline* to get no image caption at all -->
-![](graph.png)\
 
 
-## Content Slide
+---
 
-Do math simply!
+![](Tali_picture.png)\
 
-$$\sqrt{5} \neq 1$$
+---
 
-`Use` standard *markdown* **easily**.
+## GNOME Logs
 
-### With Lower Level Headers
+![](logs.png) \
 
-```python
-def some_code(is_easy_to):
-    integrate()
 
-# With syntax highlighting, of course!
-```
-
-## Incrementally Showing Lists
+## Work done till now
 
 <!-- Use > to make lists show incrementally. Oh you noticed?
      This is a comment! -->
-> - Is
-> - Dead
-> - Easy!
+ - Tests for the selection of an item in the sidebar menu.
+ - Tests for the selection of the particular log listing for the respective selected item by creating a mock GLJournal API and writing a fake       message.
+ - Tests for the “Go back” functionality when the log listing is selected.
 
-# Compiling
 
-## Compiling
 
-Simply use `make pandoc` in this directory!

@@ -4,7 +4,7 @@ SRC = guadec-example.tex
 PANDOC_SRC = presentation.md
 
 OUT = $(SRC:%.tex=%.pdf)
-PANDOC_OUT = $(PANDOC_SRC:%.md=%.pdf)
+PANDOC_OUT = $(PANDOC_SRC:%.md=%.tex)
 
 BYPRODUCTS = \
 	$(SRC:%.tex=%.aux) \
